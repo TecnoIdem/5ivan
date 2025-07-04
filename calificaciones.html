@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MI PORTAFOLIO MTRA.</title>
+
+<style>
+	body{
+		margin:0 ;
+		font-family:'Segoe UI', sans-serif ;
+		display:flex;
+
+	}
+ nav {
+      width: 220px;
+      min-height: 100vh;
+      background: linear-gradient(to bottom, #DAF7A6, #0f6b3e);
+      color: white;
+      padding-top: 30px;
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+nav ul li {
+      position: relative;
+    }
+     nav ul li a {
+      display: block;
+      padding: 15px 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    nav ul li a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+/* Submenú */
+    nav ul li ul {
+      display: none;
+      background-color: #174f36;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    nav ul li ul li a {
+      padding-left: 30px;
+      font-weight: normal;
+    }
+    /* CONTENIDO */
+    .contenido {
+      margin-left: 220px;
+      width: calc(100% - 220px);
+    }
+
+    header {
+      background: linear-gradient(to right, #6b0f1a, #0f6b3e);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+ header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+ header .titulo {
+      text-align: left;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+table{
+  width:80%;
+  border-collapse:collapse;
+  margin:20px auto;
+  font-family: arial,sans-serif;
+  border:2px solid #000;
+}
+
+
+th,th{
+  border:2px solid #000;
+  padding:8px;
+  text-aling:center;
+}
+
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+	
+		<nav>
+      <ul>
+			<li> <a href="index.html">Inicio</a></li>
+			<li> <a href="#">Sobre mí</a></li>
+			<li> <a href="#">Habilidades</a></li>
+
+			<li>
+				<a href="#">Proyectos</a>
+				<ul>
+					<li><a href="#">Calificaciones</a></li>
+					<li><a href="#">Directorio</a></li>
+					<li><a href="#">Reforestación</a></li>
+					<li><a href="#">Cuestionario</a></li>
+
+				</ul>
+
+			</li>
+			<li><a href="#">Contacto</a></li>
+
+		</nav>
+<div class="contenido">
+  <!-- HEADER CON IMAGEN-->
+  <header>
+    <img src="img/mifoto.jpg" alt="Foto de perfil">
+      <div class="titulo">
+        <h1>Mi Página Web Completa</h1>
+        <p>Con menú lateral y diseño profesional</p>
+      </div>
+
+
+  </header>
+   <!-- MAIN -->
+    
+      <h1>lista de calificaciones</h1>
+    <table>
+    <caption>grupo 603</caption>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>nombre</th>
+        <th>materia</th>
+        <th>calificaciones</th>
+        <th>opservaciones</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>1.</td>
+      <td>ivan antonio mendoza</td>
+      <td>fisica</td>
+      <td>6.0</td>
+      <td>reprobe la materia y me fui a extra</td>
+    </tr>
+    
+    <tr>
+      <td>2.</td>
+      <td>ivan antonio mendoza
+        <td>ciencias socialel</td>
+        <td>8.5</td>
+        <td>pase la materia</td>
+      </tr>
+
+       <tr>
+      <td>3.</td>
+      <td>ivan antonio mendoza
+        <td>orientacion</td>
+        <td>8.0</td>
+        <td>materia curiosa o interesante</td>
+      <tr>
+      <td>4.</td>
+      <td>ivan antonio mendoza
+        <td>historia universal</td>
+        <td>7.0</td>
+        <td>me fui a final</td>
+      <tr>
+      <tr>
+      <td>5.</td>
+      <td>ivan antonio mendoza
+        <td>calculo integral</td>
+        <td>5.0</td>
+        <td>me fui a extraordinario</td>
+      </tr>
+      <tr>
+      <td>6.</td>
+      <td>ivan antonio mendoza
+        <td>filosofia</td>
+        <td>9.0</td>
+        <td>pase la materia</td>
+      </tr>
+      <tr>
+      <td>7.</td>
+      <td>ivan antonio mendoza
+        <td>actividad artistica cultural</td>
+        <td>7.0</td>
+        <td>me fui a final</td>
+      </tr>
+      <tr>
+      <td>8.</td>
+      <td>ivan antonio mendoza
+        <td>economia</td>
+        <td>10.0</td>
+        <td>exente la materia</td>
+      </tr>
+      <tr>
+      <td>9.</td>
+      <td>ivan antonio mendoza
+        <td>submodulo 1 pagina web</td>
+        <td>5.0</td>
+        <td>me fui a extraordinario</td>
+      </tr>
+      <tr>
+      <td>10.0</td>
+      <td>ivan antonio mendoza
+        <td>submodulo 2 diseño digital</td>
+        <td>5.0</td>
+        <td>me fui a extraordinario</td>
+      </tr>
+  </tbody>
+</table>
+  
+
+
+
+
+
+
+    
+    <!-- FOOTER -->
+    <footer>
+      <h3>Elaborado por: Tu Nombre Aquí</h3>
+      <p>&copy; 2025 Todos los derechos reservados.</p>
+    </footer>
+
+</div>
+
+
+
+</body>
+</html>
